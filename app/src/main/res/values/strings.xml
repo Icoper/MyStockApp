@@ -5,6 +5,7 @@
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign Up</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
@@ -13,8 +14,44 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    // ValidateActivity
+    <string name="validate_title">Please enter verification code from SMS</string>
+    <string name="verification_code_text">Verification Code</string>
+    <string name="verify_text">Verify</string>
+    <string name="resend_sms_text">Did not receive verification SMS ?</string>
+    <string name="resend_sns_btn">Resend SMS</string>
+    // RegisterActivity
+    <string name="reg_title">Create An Account</string>
+    <string name="reg_btn">Register</string>
+    <string name="reg_et_phone">Phone</string>
+    <string name="reg_et_user_name">User Name</string>
+    <string name="reg_et_pass">Password</string>
+
 
     // LoginActivity
     <string name="logo_text">mystock.store</string>
     <string name="pls_signin">Please sign in</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="do_not_have_an_acc">Do not have an account?</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    // NavDrawer
+    <string name="logout">Logout</string>
+    <string name="my_stock">My Stock</string>
+    <string name="stock_for_sale">Stock for Sale</string>
+    <string name="add_item">Add item</string>
+    <string name="search_other_stock">Search others stock</string>
+    <string name="my_sales">My Sales</string>
+    <string name="my_rating">My Rating</string>
+
+    //Add Item Fragment
+    <string name="aif_item_title">Item title</string>
+    <string name="aif_item_description">Item Description</string>
+    <string name="aif_item_tags_search">Item Tags For search (comma separated)</string>
+    <string name="aif_quantity">Quantity</string>
+    <string name="aif_price">Price ($)</string>
+    <string name="aif_submit">Submit</string>
 </resources>
